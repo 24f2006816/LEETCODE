@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0152-maximum-product-subarray](https://github.com/24f2006816/LEETCODE/tree/master/0152-maximum-product-subarray) |
+| [3699-number-of-zigzag-arrays-i](https://github.com/24f2006816/LEETCODE/tree/master/3699-number-of-zigzag-arrays-i) |
 ## Binary Search
 |  |
 | ------- |
@@ -70,4 +71,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/24f2006816/LEETCODE/tree/master/0493-reverse-pairs) |
+## Prefix Sum
+|  |
+| ------- |
+| [3699-number-of-zigzag-arrays-i](https://github.com/24f2006816/LEETCODE/tree/master/3699-number-of-zigzag-arrays-i) |
 <!---LeetCode Topics End-->
