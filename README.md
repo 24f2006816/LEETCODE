@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/24f2006816/LEETCODE/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/24f2006816/LEETCODE/tree/master/0048-rotate-image) |
 | [0069-sqrtx](https://github.com/24f2006816/LEETCODE/tree/master/0069-sqrtx) |
 | [0231-power-of-two](https://github.com/24f2006816/LEETCODE/tree/master/0231-power-of-two) |
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0029-divide-two-integers](https://github.com/24f2006816/LEETCODE/tree/master/0029-divide-two-integers) |
 | [0231-power-of-two](https://github.com/24f2006816/LEETCODE/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/24f2006816/LEETCODE/tree/master/0338-counting-bits) |
 ## Recursion
