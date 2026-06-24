@@ -70,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0152-maximum-product-subarray](https://github.com/24f2006816/LEETCODE/tree/master/0152-maximum-product-subarray) |
+| [0338-counting-bits](https://github.com/24f2006816/LEETCODE/tree/master/0338-counting-bits) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/24f2006816/LEETCODE/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/24f2006816/LEETCODE/tree/master/3700-number-of-zigzag-arrays-ii) |
 ## Binary Search
@@ -126,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/24f2006816/LEETCODE/tree/master/0231-power-of-two) |
+| [0338-counting-bits](https://github.com/24f2006816/LEETCODE/tree/master/0338-counting-bits) |
 ## Recursion
 |  |
 | ------- |
