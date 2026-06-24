@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/24f2006816/LEETCODE/tree/master/0035-search-insert-position) |
 | [0048-rotate-image](https://github.com/24f2006816/LEETCODE/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/24f2006816/LEETCODE/tree/master/0054-spiral-matrix) |
+| [0066-plus-one](https://github.com/24f2006816/LEETCODE/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/24f2006816/LEETCODE/tree/master/0073-set-matrix-zeroes) |
 | [0078-subsets](https://github.com/24f2006816/LEETCODE/tree/master/0078-subsets) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/24f2006816/LEETCODE/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0029-divide-two-integers](https://github.com/24f2006816/LEETCODE/tree/master/0029-divide-two-integers) |
 | [0048-rotate-image](https://github.com/24f2006816/LEETCODE/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/24f2006816/LEETCODE/tree/master/0050-powx-n) |
+| [0066-plus-one](https://github.com/24f2006816/LEETCODE/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/24f2006816/LEETCODE/tree/master/0069-sqrtx) |
 | [0231-power-of-two](https://github.com/24f2006816/LEETCODE/tree/master/0231-power-of-two) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/24f2006816/LEETCODE/tree/master/3700-number-of-zigzag-arrays-ii) |
