@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0050-powx-n](https://github.com/24f2006816/LEETCODE/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/24f2006816/LEETCODE/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/24f2006816/LEETCODE/tree/master/0069-sqrtx) |
+| [0070-climbing-stairs](https://github.com/24f2006816/LEETCODE/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/24f2006816/LEETCODE/tree/master/0231-power-of-two) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/24f2006816/LEETCODE/tree/master/3700-number-of-zigzag-arrays-ii) |
 ## Simulation
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0070-climbing-stairs](https://github.com/24f2006816/LEETCODE/tree/master/0070-climbing-stairs) |
 | [0152-maximum-product-subarray](https://github.com/24f2006816/LEETCODE/tree/master/0152-maximum-product-subarray) |
 | [0338-counting-bits](https://github.com/24f2006816/LEETCODE/tree/master/0338-counting-bits) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/24f2006816/LEETCODE/tree/master/3699-number-of-zigzag-arrays-i) |
@@ -203,4 +205,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/24f2006816/LEETCODE/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
+## Memoization
+|  |
+| ------- |
+| [0070-climbing-stairs](https://github.com/24f2006816/LEETCODE/tree/master/0070-climbing-stairs) |
 <!---LeetCode Topics End-->
