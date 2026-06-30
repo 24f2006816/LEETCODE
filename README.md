@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0205-isomorphic-strings](https://github.com/24f2006816/LEETCODE/tree/master/0205-isomorphic-strings) |
 | [0217-contains-duplicate](https://github.com/24f2006816/LEETCODE/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/24f2006816/LEETCODE/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/24f2006816/LEETCODE/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/24f2006816/LEETCODE/tree/master/0349-intersection-of-two-arrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/24f2006816/LEETCODE/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/24f2006816/LEETCODE/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
@@ -162,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/24f2006816/LEETCODE/tree/master/0148-sort-list) |
 | [0217-contains-duplicate](https://github.com/24f2006816/LEETCODE/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/24f2006816/LEETCODE/tree/master/0229-majority-element-ii) |
+| [0242-valid-anagram](https://github.com/24f2006816/LEETCODE/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/24f2006816/LEETCODE/tree/master/0349-intersection-of-two-arrays) |
 | [0414-third-maximum-number](https://github.com/24f2006816/LEETCODE/tree/master/0414-third-maximum-number) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/24f2006816/LEETCODE/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
@@ -225,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/24f2006816/LEETCODE/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/24f2006816/LEETCODE/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/24f2006816/LEETCODE/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/24f2006816/LEETCODE/tree/master/0242-valid-anagram) |
 | [0796-rotate-string](https://github.com/24f2006816/LEETCODE/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/24f2006816/LEETCODE/tree/master/1021-remove-outermost-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/24f2006816/LEETCODE/tree/master/1358-number-of-substrings-containing-all-three-characters) |
