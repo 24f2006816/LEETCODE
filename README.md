@@ -225,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/24f2006816/LEETCODE/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/24f2006816/LEETCODE/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/24f2006816/LEETCODE/tree/master/0205-isomorphic-strings) |
+| [0796-rotate-string](https://github.com/24f2006816/LEETCODE/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/24f2006816/LEETCODE/tree/master/1021-remove-outermost-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/24f2006816/LEETCODE/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1903-largest-odd-number-in-string](https://github.com/24f2006816/LEETCODE/tree/master/1903-largest-odd-number-in-string) |
@@ -237,4 +238,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/24f2006816/LEETCODE/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+## String Matching
+|  |
+| ------- |
+| [0796-rotate-string](https://github.com/24f2006816/LEETCODE/tree/master/0796-rotate-string) |
 <!---LeetCode Topics End-->
