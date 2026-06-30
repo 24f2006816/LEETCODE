@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/24f2006816/LEETCODE/tree/master/0229-majority-element-ii) |
 | [0242-valid-anagram](https://github.com/24f2006816/LEETCODE/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/24f2006816/LEETCODE/tree/master/0349-intersection-of-two-arrays) |
+| [0451-sort-characters-by-frequency](https://github.com/24f2006816/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/24f2006816/LEETCODE/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [3020-find-the-maximum-number-of-elements-in-subset](https://github.com/24f2006816/LEETCODE/tree/master/3020-find-the-maximum-number-of-elements-in-subset) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/24f2006816/LEETCODE/tree/master/3737-count-subarrays-with-majority-element-i) |
@@ -166,11 +167,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/24f2006816/LEETCODE/tree/master/0242-valid-anagram) |
 | [0349-intersection-of-two-arrays](https://github.com/24f2006816/LEETCODE/tree/master/0349-intersection-of-two-arrays) |
 | [0414-third-maximum-number](https://github.com/24f2006816/LEETCODE/tree/master/0414-third-maximum-number) |
+| [0451-sort-characters-by-frequency](https://github.com/24f2006816/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/24f2006816/LEETCODE/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 ## Counting
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/24f2006816/LEETCODE/tree/master/0229-majority-element-ii) |
+| [0451-sort-characters-by-frequency](https://github.com/24f2006816/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [3737-count-subarrays-with-majority-element-i](https://github.com/24f2006816/LEETCODE/tree/master/3737-count-subarrays-with-majority-element-i) |
 ## Bit Manipulation
 |  |
@@ -228,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/24f2006816/LEETCODE/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/24f2006816/LEETCODE/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/24f2006816/LEETCODE/tree/master/0242-valid-anagram) |
+| [0451-sort-characters-by-frequency](https://github.com/24f2006816/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [0796-rotate-string](https://github.com/24f2006816/LEETCODE/tree/master/0796-rotate-string) |
 | [1021-remove-outermost-parentheses](https://github.com/24f2006816/LEETCODE/tree/master/1021-remove-outermost-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/24f2006816/LEETCODE/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -245,4 +249,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0796-rotate-string](https://github.com/24f2006816/LEETCODE/tree/master/0796-rotate-string) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/24f2006816/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
+## Bucket Sort
+|  |
+| ------- |
+| [0451-sort-characters-by-frequency](https://github.com/24f2006816/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 <!---LeetCode Topics End-->
