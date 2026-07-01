@@ -66,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/24f2006816/LEETCODE/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0027-remove-element](https://github.com/24f2006816/LEETCODE/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/24f2006816/LEETCODE/tree/master/0031-next-permutation) |
+| [0061-rotate-list](https://github.com/24f2006816/LEETCODE/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/24f2006816/LEETCODE/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/24f2006816/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/24f2006816/LEETCODE/tree/master/0148-sort-list) |
@@ -208,6 +209,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0002-add-two-numbers](https://github.com/24f2006816/LEETCODE/tree/master/0002-add-two-numbers) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/24f2006816/LEETCODE/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0025-reverse-nodes-in-k-group](https://github.com/24f2006816/LEETCODE/tree/master/0025-reverse-nodes-in-k-group) |
+| [0061-rotate-list](https://github.com/24f2006816/LEETCODE/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/24f2006816/LEETCODE/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/24f2006816/LEETCODE/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/24f2006816/LEETCODE/tree/master/0148-sort-list) |
