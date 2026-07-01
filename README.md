@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/24f2006816/LEETCODE/tree/master/0229-majority-element-ii) |
 | [0349-intersection-of-two-arrays](https://github.com/24f2006816/LEETCODE/tree/master/0349-intersection-of-two-arrays) |
 | [0414-third-maximum-number](https://github.com/24f2006816/LEETCODE/tree/master/0414-third-maximum-number) |
+| [0455-assign-cookies](https://github.com/24f2006816/LEETCODE/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/24f2006816/LEETCODE/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/24f2006816/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
 | [0875-koko-eating-bananas](https://github.com/24f2006816/LEETCODE/tree/master/0875-koko-eating-bananas) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/24f2006816/LEETCODE/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/24f2006816/LEETCODE/tree/master/0234-palindrome-linked-list) |
 | [0349-intersection-of-two-arrays](https://github.com/24f2006816/LEETCODE/tree/master/0349-intersection-of-two-arrays) |
+| [0455-assign-cookies](https://github.com/24f2006816/LEETCODE/tree/master/0455-assign-cookies) |
 | [0876-middle-of-the-linked-list](https://github.com/24f2006816/LEETCODE/tree/master/0876-middle-of-the-linked-list) |
 ## Union-Find
 |  |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/24f2006816/LEETCODE/tree/master/0349-intersection-of-two-arrays) |
 | [0414-third-maximum-number](https://github.com/24f2006816/LEETCODE/tree/master/0414-third-maximum-number) |
 | [0451-sort-characters-by-frequency](https://github.com/24f2006816/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
+| [0455-assign-cookies](https://github.com/24f2006816/LEETCODE/tree/master/0455-assign-cookies) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/24f2006816/LEETCODE/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 ## Counting
 |  |
@@ -233,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0455-assign-cookies](https://github.com/24f2006816/LEETCODE/tree/master/0455-assign-cookies) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/24f2006816/LEETCODE/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1903-largest-odd-number-in-string](https://github.com/24f2006816/LEETCODE/tree/master/1903-largest-odd-number-in-string) |
 ## Memoization
