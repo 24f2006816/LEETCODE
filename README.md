@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/24f2006816/LEETCODE/tree/master/0455-assign-cookies) |
 | [0493-reverse-pairs](https://github.com/24f2006816/LEETCODE/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/24f2006816/LEETCODE/tree/master/0540-single-element-in-a-sorted-array) |
+| [0860-lemonade-change](https://github.com/24f2006816/LEETCODE/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/24f2006816/LEETCODE/tree/master/0875-koko-eating-bananas) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/24f2006816/LEETCODE/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/24f2006816/LEETCODE/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -247,6 +248,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/24f2006816/LEETCODE/tree/master/0455-assign-cookies) |
+| [0860-lemonade-change](https://github.com/24f2006816/LEETCODE/tree/master/0860-lemonade-change) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/24f2006816/LEETCODE/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1903-largest-odd-number-in-string](https://github.com/24f2006816/LEETCODE/tree/master/1903-largest-odd-number-in-string) |
 ## Memoization
