@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-lemonade-change](https://github.com/24f2006816/LEETCODE/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/24f2006816/LEETCODE/tree/master/0875-koko-eating-bananas) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/24f2006816/LEETCODE/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1301-number-of-paths-with-max-score](https://github.com/24f2006816/LEETCODE/tree/master/1301-number-of-paths-with-max-score) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/24f2006816/LEETCODE/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 | [1932-merge-bsts-to-create-single-bst](https://github.com/24f2006816/LEETCODE/tree/master/1932-merge-bsts-to-create-single-bst) |
 | [1967-number-of-strings-that-appear-as-substrings-in-word](https://github.com/24f2006816/LEETCODE/tree/master/1967-number-of-strings-that-appear-as-substrings-in-word) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/24f2006816/LEETCODE/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/24f2006816/LEETCODE/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/24f2006816/LEETCODE/tree/master/0073-set-matrix-zeroes) |
+| [1301-number-of-paths-with-max-score](https://github.com/24f2006816/LEETCODE/tree/master/1301-number-of-paths-with-max-score) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/24f2006816/LEETCODE/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/24f2006816/LEETCODE/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Math
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0152-maximum-product-subarray](https://github.com/24f2006816/LEETCODE/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/24f2006816/LEETCODE/tree/master/0198-house-robber) |
 | [0338-counting-bits](https://github.com/24f2006816/LEETCODE/tree/master/0338-counting-bits) |
+| [1301-number-of-paths-with-max-score](https://github.com/24f2006816/LEETCODE/tree/master/1301-number-of-paths-with-max-score) |
 | [3620-network-recovery-pathways](https://github.com/24f2006816/LEETCODE/tree/master/3620-network-recovery-pathways) |
 | [3699-number-of-zigzag-arrays-i](https://github.com/24f2006816/LEETCODE/tree/master/3699-number-of-zigzag-arrays-i) |
 | [3700-number-of-zigzag-arrays-ii](https://github.com/24f2006816/LEETCODE/tree/master/3700-number-of-zigzag-arrays-ii) |
