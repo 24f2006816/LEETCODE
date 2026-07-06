@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/24f2006816/LEETCODE/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/24f2006816/LEETCODE/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/24f2006816/LEETCODE/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/24f2006816/LEETCODE/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/24f2006816/LEETCODE/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/24f2006816/LEETCODE/tree/master/0070-climbing-stairs) |
 | [0231-power-of-two](https://github.com/24f2006816/LEETCODE/tree/master/0231-power-of-two) |
@@ -132,6 +133,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/24f2006816/LEETCODE/tree/master/0054-spiral-matrix) |
+| [0067-add-binary](https://github.com/24f2006816/LEETCODE/tree/master/0067-add-binary) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/24f2006816/LEETCODE/tree/master/0029-divide-two-integers) |
+| [0067-add-binary](https://github.com/24f2006816/LEETCODE/tree/master/0067-add-binary) |
 | [0078-subsets](https://github.com/24f2006816/LEETCODE/tree/master/0078-subsets) |
 | [0231-power-of-two](https://github.com/24f2006816/LEETCODE/tree/master/0231-power-of-two) |
 | [0338-counting-bits](https://github.com/24f2006816/LEETCODE/tree/master/0338-counting-bits) |
@@ -293,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/24f2006816/LEETCODE/tree/master/0008-string-to-integer-atoi) |
 | [0014-longest-common-prefix](https://github.com/24f2006816/LEETCODE/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/24f2006816/LEETCODE/tree/master/0020-valid-parentheses) |
+| [0067-add-binary](https://github.com/24f2006816/LEETCODE/tree/master/0067-add-binary) |
 | [0151-reverse-words-in-a-string](https://github.com/24f2006816/LEETCODE/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/24f2006816/LEETCODE/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/24f2006816/LEETCODE/tree/master/0242-valid-anagram) |
