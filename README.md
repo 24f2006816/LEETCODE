@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/24f2006816/LEETCODE/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/24f2006816/LEETCODE/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/24f2006816/LEETCODE/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1288-remove-covered-intervals](https://github.com/24f2006816/LEETCODE/tree/master/1288-remove-covered-intervals) |
 | [1301-number-of-paths-with-max-score](https://github.com/24f2006816/LEETCODE/tree/master/1301-number-of-paths-with-max-score) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/24f2006816/LEETCODE/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/24f2006816/LEETCODE/tree/master/1539-kth-missing-positive-number) |
@@ -213,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0414-third-maximum-number](https://github.com/24f2006816/LEETCODE/tree/master/0414-third-maximum-number) |
 | [0451-sort-characters-by-frequency](https://github.com/24f2006816/LEETCODE/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/24f2006816/LEETCODE/tree/master/0455-assign-cookies) |
+| [1288-remove-covered-intervals](https://github.com/24f2006816/LEETCODE/tree/master/1288-remove-covered-intervals) |
 | [1846-maximum-element-after-decreasing-and-rearranging](https://github.com/24f2006816/LEETCODE/tree/master/1846-maximum-element-after-decreasing-and-rearranging) |
 ## Counting
 |  |
