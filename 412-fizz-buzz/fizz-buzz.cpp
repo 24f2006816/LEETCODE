@@ -3,14 +3,19 @@ public:
     vector<string> fizzBuzz(int n) {
         vector<string> result;
         
-        for (int i = 1; i<= n; i++){
-            string current = "";
-            if (i % 3 == 0) current += "Fizz";
-            if (i % 5 == 0) current += "Buzz";
-            if (current.empty()){
-                current += to_string(i);
+        for (int i = 1; i <= n; i++) {
+            if (i % 15 == 0) {
+                result.push_back("FizzBuzz");
             }
-            result.push_back(current);
+            else if (i % 3 == 0) {
+                result.push_back("Fizz");
+            }
+            else if (i % 5 == 0) {
+                result.push_back("Buzz");
+            }
+            else {
+                result.push_back(to_string(i));
+            }
         }
         return result;
     }
