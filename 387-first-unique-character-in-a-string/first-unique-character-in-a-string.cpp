@@ -1,21 +1,13 @@
 class Solution {
 public:
     int firstUniqChar(string s) {
+        int n = s.size();
+        vector<int> mp(26, 0);
+        for(char &c: s) mp[c-'a']++;
 
-        unordered_map<char, int> mp;
-
-        // Count frequency
-        for (char ch : s) {
-            mp[ch]++;
+        for(int i=0; i<n; i++) {
+            if(mp[s[i]-'a']==1) return i;
         }
-
-        // Find first unique
-        for (int i = 0; i < s.length(); i++) {
-            if (mp[s[i]] == 1) {
-                return i;
-            }
-        }
-
         return -1;
     }
 };
