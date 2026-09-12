@@ -1,276 +1,122 @@
 class Solution {
-public:
+private:
+    static constexpr int MAX_COUNT = 4;
 
-    struct Interval {
-        int start;
-        int end;
-        int weight;
-        int index;
+    struct Result {
+        long long weight = 0;
+        array<int, MAX_COUNT> indices{};
+        int size = 0;
     };
 
-    struct State {
-        long long score;
-        vector<int> indices;
-        bool calculated;
+    // a.indices가 b.indices보다 사전순으로 작은지 비교
+    static bool lexicographicallyLess(const Result& a, const Result& b) {
+        const int commonSize = min(a.size, b.size);
 
-        State() {
-            score = 0;
-            calculated = false;
-        }
-    };
-
-    vector<vector<State>> dp;
-
-    // ---------------- MERGE SORT ----------------
-
-    void merge(vector<Interval>& a, int l, int m, int r) {
-
-        vector<Interval> temp;
-
-        int i = l;
-        int j = m + 1;
-
-        while (i <= m && j <= r) {
-
-            if (a[i].start < a[j].start ||
-                (a[i].start == a[j].start &&
-                 a[i].index < a[j].index)) {
-
-                temp.push_back(a[i]);
-                i++;
-            }
-            else {
-                temp.push_back(a[j]);
-                j++;
+        for (int i = 0; i < commonSize; ++i) {
+            if (a.indices[i] != b.indices[i]) {
+                return a.indices[i] < b.indices[i];
             }
         }
 
-        while (i <= m) {
-            temp.push_back(a[i]);
-            i++;
-        }
-
-        while (j <= r) {
-            temp.push_back(a[j]);
-            j++;
-        }
-
-        for (int k = 0; k < temp.size(); k++) {
-            a[l + k] = temp[k];
-        }
+        return a.size < b.size;
     }
 
-    void mergeSort(vector<Interval>& a, int l, int r) {
-
-        if (l >= r)
-            return;
-
-        int m = l + (r - l) / 2;
-
-        mergeSort(a, l, m);
-        mergeSort(a, m + 1, r);
-
-        merge(a, l, m, r);
-    }
-
-    // ---------------- BINARY SEARCH ----------------
-
-    int findNext(vector<Interval>& a, int end) {
-
-        int l = 0;
-        int r = a.size();
-
-        while (l < r) {
-
-            int mid = l + (r - l) / 2;
-
-            if (a[mid].start > end)
-                r = mid;
-            else
-                l = mid + 1;
+    // weight가 크면 우선.
+    // weight가 같으면 인덱스 배열이 사전순으로 작은 쪽을 우선.
+    static bool isBetter(const Result& a, const Result& b) {
+        if (a.weight != b.weight) {
+            return a.weight > b.weight;
         }
 
-        return l;
+        return lexicographicallyLess(a, b);
     }
 
-    // ---------------- LEXICOGRAPHIC COMPARISON ----------------
-
-    bool lexicographicallySmaller(
-        vector<int>& a,
-        vector<int>& b
+    // 정렬된 인덱스 배열에 index를 삽입
+    static Result addInterval(
+        const Result& suffix,
+        int index,
+        long long weight
     ) {
+        Result result;
+        result.weight = suffix.weight + weight;
+        result.size = suffix.size + 1;
 
-        int n = a.size();
-        int m = b.size();
+        int suffixPos = 0;
+        int resultPos = 0;
 
-        int len = n < m ? n : m;
-
-        for (int i = 0; i < len; i++) {
-
-            if (a[i] < b[i])
-                return true;
-
-            if (a[i] > b[i])
-                return false;
+        while (
+            suffixPos < suffix.size &&
+            suffix.indices[suffixPos] < index
+        ) {
+            result.indices[resultPos++] = suffix.indices[suffixPos++];
         }
 
-        // If one is prefix of the other,
-        // shorter one is lexicographically smaller.
-        return n < m;
-    }
+        result.indices[resultPos++] = index;
 
-    // ---------------- SORT INDICES ----------------
-
-    void sortIndices(vector<int>& v) {
-
-        for (int i = 0; i < v.size(); i++) {
-
-            for (int j = i + 1; j < v.size(); j++) {
-
-                if (v[j] < v[i]) {
-
-                    int temp = v[i];
-                    v[i] = v[j];
-                    v[j] = temp;
-                }
-            }
+        while (suffixPos < suffix.size) {
+            result.indices[resultPos++] = suffix.indices[suffixPos++];
         }
-    }
-
-    // ---------------- DP ----------------
-
-    State solve(
-        int i,
-        int k,
-        vector<Interval>& a,
-        vector<int>& next
-    ) {
-
-        if (i == a.size() || k == 0) {
-
-            State base;
-            base.calculated = true;
-
-            return base;
-        }
-
-        if (dp[i][k].calculated)
-            return dp[i][k];
-
-        // ----------------
-        // SKIP
-        // ----------------
-
-        State skip = solve(
-            i + 1,
-            k,
-            a,
-            next
-        );
-
-        // ----------------
-        // TAKE
-        // ----------------
-
-        State take = solve(
-            next[i],
-            k - 1,
-            a,
-            next
-        );
-
-        take.score += a[i].weight;
-
-        take.indices.push_back(a[i].index);
-
-        sortIndices(take.indices);
-
-        // ----------------
-        // CHOOSE
-        // ----------------
-
-        State result;
-
-        if (take.score > skip.score) {
-
-            result = take;
-
-        }
-        else if (take.score < skip.score) {
-
-            result = skip;
-
-        }
-        else {
-
-            // SAME SCORE
-            //
-            // ONLY lexicographical order matters.
-
-            if (lexicographicallySmaller(
-                    take.indices,
-                    skip.indices)) {
-
-                result = take;
-            }
-            else {
-
-                result = skip;
-            }
-        }
-
-        result.calculated = true;
-
-        dp[i][k] = result;
 
         return result;
     }
 
-    // ---------------- MAIN ----------------
+public:
+    vector<int> maximumWeight(vector<vector<int>>& intervals) {
+        const int n = static_cast<int>(intervals.size());
 
-    vector<int> maximumWeight(
-        vector<vector<int>>& intervals
-    ) {
-
-        int n = intervals.size();
-
-        vector<Interval> a(n);
-
-        for (int i = 0; i < n; i++) {
-
-            a[i].start = intervals[i][0];
-            a[i].end = intervals[i][1];
-            a[i].weight = intervals[i][2];
-            a[i].index = i;
+        // [left, right, weight, originalIndex]
+        for (int i = 0; i < n; ++i) {
+            intervals[i].push_back(i);
         }
 
-        // Sort by starting time
-        mergeSort(a, 0, n - 1);
+        ranges::sort(intervals);
 
-        // Find next non-overlapping interval
-        vector<int> next(n);
+        // nextIndex[i]:
+        // intervals[i]를 선택했을 때 다음으로 선택 가능한 첫 구간
+        vector<int> nextIndex(n);
 
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; ++i) {
+            const int right = intervals[i][1];
 
-            next[i] = findNext(
-                a,
-                a[i].end
+            auto it = lower_bound(
+                intervals.begin(),
+                intervals.end(),
+                right + 1,
+                [](const vector<int>& interval, int targetLeft) {
+                    return interval[0] < targetLeft;
+                }
             );
+
+            nextIndex[i] = static_cast<int>(it - intervals.begin());
         }
 
-        // At most 4 intervals
-        dp.assign(
-            n + 1,
-            vector<State>(5)
-        );
+        // dp[i][count]:
+        // i번 이후의 구간에서 최대 count개를 골랐을 때의 최적 결과
+        vector<array<Result, MAX_COUNT + 1>> dp(n + 1);
 
-        State answer = solve(
-            0,
-            4,
-            a,
-            next
-        );
+        for (int i = n - 1; i >= 0; --i) {
+            for (int count = 1; count <= MAX_COUNT; ++count) {
+                // 현재 구간을 선택하지 않는 경우
+                const Result& skip = dp[i + 1][count];
 
-        return answer.indices;
+                // 현재 구간을 선택하는 경우
+                Result take = addInterval(
+                    dp[nextIndex[i]][count - 1],
+                    intervals[i][3],
+                    intervals[i][2]
+                );
+
+                dp[i][count] = isBetter(take, skip)
+                    ? take
+                    : skip;
+            }
+        }
+
+        const Result& answer = dp[0][MAX_COUNT];
+
+        return vector<int>(
+            answer.indices.begin(),
+            answer.indices.begin() + answer.size
+        );
     }
 };
